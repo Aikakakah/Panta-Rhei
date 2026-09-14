@@ -259,12 +259,12 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
                 _sprite.LayerSetColor(target, layerId,
                     colorDict.TryGetValue(rsi.RsiState, out var color) ? color : Color.White);
 
-                /// imp special via beck. check if there's a shader defined in the markingPrototype's shader datafield, and if there is...
+                /// Euphoria - add shaders. Set shader: unshaded for glowing markings.
                 if (proto.Shader != null && TryComp<SpriteComponent>(target, out var spriteComp))
                 {
                     spriteComp.LayerSetShader(layerId, proto.Shader);
                 }
-                /// end imp special
+                /// end Euphoria
             }
 
             applied.Add(marking);
