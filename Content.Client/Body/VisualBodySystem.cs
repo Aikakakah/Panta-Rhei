@@ -258,6 +258,13 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
                 // Floofstation - replaced the above
                 _sprite.LayerSetColor(target, layerId,
                     colorDict.TryGetValue(rsi.RsiState, out var color) ? color : Color.White);
+
+                /// imp special via beck. check if there's a shader defined in the markingPrototype's shader datafield, and if there is...
+                if (proto.Shader != null && TryComp<SpriteComponent>(target, out var spriteComp))
+                {
+                    spriteComp.LayerSetShader(layerId, proto.Shader);
+                }
+                /// end imp special
             }
 
             applied.Add(marking);
