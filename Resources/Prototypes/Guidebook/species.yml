@@ -25,8 +25,8 @@
     - Allulalo
     - Thaven
     # Den addition
+    - Ovinia
     # Floof section
-    # - Ovinia # Floof - no ovinia
     - Tajaran
     # - IPC
     # Floof section end
@@ -77,6 +77,14 @@
   id: Shadekin
   name: species-name-shadekin
   text: "/ServerInfo/_Starlight/Guidebook/Mobs/Shadekin.xml"
+
+# Begin Den additions
+- type: guideEntry
+  id: Ovinia
+  name: species-name-ovinia
+  text: "/ServerInfo/_Den/Guidebook/Mobs/Ovinia.xml"
+
+# End Den additions
 
 # Begin Euphoria additions
 - type: guideEntry # b7660b9
