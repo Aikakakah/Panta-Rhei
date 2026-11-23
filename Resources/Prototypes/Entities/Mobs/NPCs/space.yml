@@ -120,6 +120,12 @@
     interactFailureString: petting-failure-bear
     interactSuccessSound:
       path: /Audio/Animals/sloth_squeak.ogg
+# MACRO start
+  - type: NpcFactionMember
+    factions:
+    - AnimalFriend
+    - SimpleHostile
+# MACRO end
 
 - type: entity
   id: MobBearSpaceSalvage
@@ -184,6 +190,13 @@
     spawned:
     - id: FoodMeat
       amount: 1
+
+# MACRO start
+  - type: NpcFactionMember
+    factions:
+    - AnimalFriend
+    - SimpleHostile
+# MACRO end
 
 - type: entity
   id: MobKangarooSpaceSalvage

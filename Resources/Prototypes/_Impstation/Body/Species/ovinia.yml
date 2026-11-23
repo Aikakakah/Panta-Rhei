@@ -153,9 +153,9 @@
     - CanPilot
     - FootstepSound
     - AnomalyHost
-  # - type: NpcFactionMember
-  #   factions:
-  #   - AnimalFriend
+  - type: NpcFactionMember
+    factions:
+    - AnimalFriend
     # Begin Euphoria additions
   - type: LanguageKnowledge # Floofstation.
     speaks:
