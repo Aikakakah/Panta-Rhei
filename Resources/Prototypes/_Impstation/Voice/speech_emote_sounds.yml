@@ -261,7 +261,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/_MACRO/Voice/Ovinia/ovinia_scream_m.ogg
+      path: /Audio/_MACRO/Voice/Ovinia/ovinia-scream_m.ogg
     Laugh:
       collection: MaleLaugh
     Sneeze:
@@ -299,7 +299,8 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/_MACRO/Voice/Ovinia/ovinia_scream_f.ogg
+      path: /Audio/_MACRO/Voice/Ovinia/ovinia-scream_f.ogg
+
     Laugh:
       collection: FemaleLaugh
     Sneeze:

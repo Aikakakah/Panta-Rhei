@@ -13,9 +13,6 @@
   sexes:
   - Male
   - Female
-  defaultSoundsBySex:
-  - MaleOvinia
-  - FemaleOvinia
 
 # Developer Notes
 #

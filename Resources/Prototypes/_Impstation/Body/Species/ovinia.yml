@@ -128,7 +128,7 @@
       Male: MaleOvinia
       Female: FemaleOvinia
   - type: Speech
-    speechSounds: Ovinia
+    # speechSounds: Ovinia
     speechVerb: Ovinia
     allowedEmotes: [ 'Baa', 'Moo' ]
   - type: Damageable
@@ -139,17 +139,13 @@
         Heat: 0.75  # thick wool, less fire damage
   # - type: EatTimeModifier
   #   modifier: 1.2 # quite slow eaters
-
   - type: Hunger
     baseDecayRate: 0.0083 # slower than normal (chewin they cud)
   - type: Thirst
     baseDecayRate: 0.0083 # slower than normal
-
   # - type: SleepTimeModifier
   #   modifier: 2
-
   - type: ProtectedFromStepTriggers
-
   - type: Tag
     tags:
     - OviniaEmotes
@@ -157,7 +153,6 @@
     - CanPilot
     - FootstepSound
     - AnomalyHost
-
   # - type: NpcFactionMember
   #   factions:
   #   - AnimalFriend
