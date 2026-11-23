@@ -2,7 +2,6 @@
 - type: marking
   id: SatyrChestMale
   bodyPart: Chest
-  markingCategory: Chest
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   sexRestriction: Male
   coloring:
@@ -26,7 +25,6 @@
 - type: marking
   id: SatyrChestFemale
   bodyPart: Chest
-  markingCategory: Chest
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   sexRestriction: Female
   coloring:
@@ -51,7 +49,6 @@
   id: SatyrCowPrint
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   bodyPart: Chest
-  markingCategory: Chest
   coloring:
     default:
       type: !type:SimpleColoring
@@ -75,7 +72,6 @@
   id: SatyrLeftArm
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   bodyPart: LArm
-  markingCategory: LeftArm
   coloring:
     default:
       type: !type:SimpleColoring
@@ -88,7 +84,6 @@
   id: SatyrRightArm
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   bodyPart: RArm
-  markingCategory: RightArm
   coloring:
     default:
       type: !type:SimpleColoring
@@ -101,7 +96,6 @@
   id: SatyrLeftHand
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   bodyPart: LHand
-  markingCategory: LeftHand
   coloring:
     default:
       type: !type:SimpleColoring
@@ -114,7 +108,6 @@
   id: SatyrRightHand
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   bodyPart: RHand
-  markingCategory: RightHand
   coloring:
     default:
       type: !type:SimpleColoring
@@ -126,7 +119,6 @@
 - type: marking
   id: SatyrHeadMale
   bodyPart: Head
-  markingCategory: Head
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   sexRestriction: Male
   coloring:
@@ -140,7 +132,6 @@
 - type: marking
   id: SatyrHeadFemale
   bodyPart: Head
-  markingCategory: Head
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   sexRestriction: Female
   coloring:
@@ -154,7 +145,6 @@
 - type: marking
   id: NoSnout
   bodyPart: Snout
-  markingCategory: Snout
   # speciesRestriction: [ Ovinia ] # Euph - free markings
   forcedColoring: true
   sprites:
