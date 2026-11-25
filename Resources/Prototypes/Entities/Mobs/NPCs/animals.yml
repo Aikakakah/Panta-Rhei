@@ -976,7 +976,6 @@
   - type: LanguageKnowledge # Floofstation
     speaks:
     - Cow
-    - Caprine
     understands:
     - Cow
     - Caprine
@@ -1164,7 +1163,6 @@
   - type: LanguageKnowledge # Floofstation
     speaks:
     - Sheep
-    - Caprine
     understands:
     - Sheep
     - Caprine
@@ -2770,7 +2768,6 @@
       - !type:ExplodeBehavior
 
   # I have included a snake_hiss.ogg sound file so if you want to use that be my guest
-
 - type: entity
   name: snake
   parent:
@@ -3052,7 +3049,6 @@
         reagents:
         - ReagentId: Laughter
           Quantity: 150
-
 - type: entity
   name: wizard spider
   parent: MobGiantSpider
@@ -4131,10 +4127,8 @@
   - type: LanguageKnowledge # Floofstation
     speaks:
     - Pig
-    - Caprine
     understands:
     - Pig
-    - Caprine
   - type: LeashAnchor # Floofstation
     kind: Intrinsic
   - type: SentienceTarget
@@ -4345,8 +4339,6 @@
   - type: Puller
     needsHands: false
   - type: LanguageKnowledge # Floofstation
-    speaks:
-    - Caprine
     understands:
     - Caprine
 
