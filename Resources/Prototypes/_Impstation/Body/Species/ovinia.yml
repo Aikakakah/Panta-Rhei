@@ -137,14 +137,19 @@
     damage:
       types:
         Heat: 0.75  # thick wool, less fire damage
+  # - type: Flammable
+  # - type: FireStackModifier
+  #   modifier: 0.75 # less fire stacks!
   # - type: EatTimeModifier
   #   modifier: 1.2 # quite slow eaters
   - type: Hunger
     baseDecayRate: 0.0083 # slower than normal (chewin they cud)
   - type: Thirst
     baseDecayRate: 0.0083 # slower than normal
-  # - type: SleepTimeModifier
-  #   modifier: 2
+  - type: SleepTimeModifier
+    modifier: 2
+  # - type: PettingChanceModifier
+  #   modifier: 1.2
   - type: ProtectedFromStepTriggers
   - type: Tag
     tags:
