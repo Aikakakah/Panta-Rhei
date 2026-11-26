@@ -6,7 +6,7 @@ using Content.Shared.Interaction.Events;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
-using Content.Shared.Whitelist;
+// using Content.Shared.Whitelist;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Network;
@@ -18,7 +18,7 @@ namespace Content.Shared.Interaction;
 
 public sealed class InteractionPopupSystem : EntitySystem
 {
-    [Dependency] private EntityWhitelistSystem _entityWhitelist = null!;
+    // [Dependency] private EntityWhitelistSystem _entityWhitelist = null!;
     [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
