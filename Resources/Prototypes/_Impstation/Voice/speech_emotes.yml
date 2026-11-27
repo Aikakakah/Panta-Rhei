@@ -35,6 +35,8 @@
   available: false
   icon: _DEN/Interface/Emotes/baa.png
   whitelist:
+    tags:
+    - OviniaEmotes
     components:
     - Vocal
   chatMessages: [ chat-emote-msg-baa ]
@@ -59,6 +61,8 @@
   icon: _DEN/Interface/Emotes/moo.png
   available: false
   whitelist:
+    tags:
+    - OviniaEmotes
     components:
     - Vocal
   chatMessages: [ chat-emote-msg-moo ]

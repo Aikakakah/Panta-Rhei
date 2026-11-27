@@ -1138,6 +1138,7 @@
   - type: Speech
     speechSounds: Goat
     speechVerb: Goat
+    allowedEmotes: ['Baa']
   - type: Vocal
     sounds:
       Female: Goat
