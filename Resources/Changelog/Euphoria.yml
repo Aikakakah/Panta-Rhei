@@ -7316,3 +7316,9 @@ Entries:
       message: Added the frotdog >:)
   id: 906
   time: '2026-11-25T08:09:25.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Fix
+      message: fixed two typos in the VB longneck
+  id: 907
+  time: '2026-11-27T18:30:00.0000000+00:00'
